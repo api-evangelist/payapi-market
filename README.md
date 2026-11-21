@@ -1,4 +1,4 @@
-# payapi-market
+# PayAPI Market
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,129 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-payapi-market is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://payapi.market/
+PayAPI Market operates an x402 marketplace for AI agents, enabling developers to list and monetize AI services. Users can pay per call in USDC across multiple blockchains including Base, Solana, Algorand, and Polygon. The platform offers free listings and takes a 0% commission on transactions, positioning itself as a decentralized hub for AI tool integration and discovery.
+
+**Areas:** Marketplace · AI · Payments · Blockchain · USDC
+
+## PayAPI Market on APIs.io
+
+Everything profiled for PayAPI Market is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/payapi-market/](https://apis.io/providers/payapi-market/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [PayAPI Market Agent API](https://apis.io/apis/payapi-market/payapi-market-agent-api/) — The Agent API from PayAPI Market — 4 operation(s) for agent.
+- [PayAPI Market Discovery API](https://apis.io/apis/payapi-market/payapi-market-discovery-api/) — The Discovery API from PayAPI Market — 1 operation(s) for discovery.
+- [PayAPI Market Openapi.json API](https://apis.io/apis/payapi-market/payapi-market-openapi-json-api/) — The Openapi.json API from PayAPI Market — 1 operation(s) for openapi.json.
+- [PayAPI Market PayAPI house agents API](https://apis.io/apis/payapi-market/payapi-market-payapi-house-agents-api/) — The PayAPI house agents API from PayAPI Market — 28 operation(s) for payapi house agents.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [PayAPI Market Agentic Access](https://apis.io/agentic-access/payapi-market/payapi-market-agentic-access/)
+
+#### JSON Schema (2)
+
+The data models the API reads and writes.
+
+- [SubmitListingRequest](https://apis.io/schemas/payapi-market/payapi-market-submit-listing-request/)
+- [SubmitListingResponse](https://apis.io/schemas/payapi-market/payapi-market-submit-listing-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Payapi Market Context](https://apis.io/jsonld/payapi-market/payapi-market-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [PayAPI Market API Rules](https://apis.io/rules/payapi-market/payapi-market-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [PayAPI Market Authentication](https://apis.io/security/payapi-market/payapi-market-authentication/)
+- [PayAPI Market Domain Security](https://apis.io/security/payapi-market/payapi-market-domain-security/)
+- [PayAPI Market Vulnerability Disclosure](https://apis.io/security/payapi-market/payapi-market-vulnerability-disclosure/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [PayAPI Market Plans Pricing](https://apis.io/plans/payapi-market/payapi-market-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://payapi.market/)
+- [Documentation](https://payapi.market/guides)
+- [API reference](https://payapi.market/llms.txt)
+- [Pricing](https://payapi.market/pricing)
+- [Changelog](https://payapi.market/changelog)
+- [Blog](https://payapi.market/blog)
+- [Terms of service](https://payapi.market/terms)
+- [Privacy policy](https://payapi.market/privacy)
+
+## API Evangelist rating
+
+**Kin Score 53.4** — developing · rubric 0.27.0 · scored 2026-11-20
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.7 |
+| Contract quality | 53.7 |
+| Contract governance | 79.1 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 46.9 |
+| Access clarity | 50.5 |
+
+**Agent readiness 40.7** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | paginated |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 25.8** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/payapi-market/](https://apis.io/providers/payapi-market/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for PayAPI Market: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/payapi-market/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
